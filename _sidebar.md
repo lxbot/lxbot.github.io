@@ -7,6 +7,7 @@
   - [Script](script.md)
   - [Plugin](plugin.md)
 - [公式ライブラリー](library/)
+  - [lxlib](library/lxlib/)
   - Adapter
     - [kokoro.io](library/adapter/kokoro-io.md)
 - [FAQ](faq.md)
