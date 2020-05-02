@@ -9,5 +9,8 @@
 - [公式ライブラリー](library/)
   - [lxlib](library/lxlib/)
   - Adapter
+    - [discord](library/adapter/discord.md)
     - [kokoro.io](library/adapter/kokoro-io.md)
+    - [mastodon](library/adapter/mastodon.md)
+    - [slack](library/adapter/slack.md)
 - [FAQ](faq.md)
