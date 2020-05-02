@@ -36,11 +36,11 @@
       plugins: [
         function(hook, vm) {
           hook.doneEach(function() {
-            Array.from(document.querySelectorAll("pre[data-lang]")).forEach(function(element){
-              element.classList.add("language-" + element.dataset.lang);
-              Array.from(element.querySelectorAll('code[class*=lang]')).forEach(function(elem){
+            Array.from(document.querySelectorAll('pre[data-lang]')).forEach(function(element) {
+              element.classList.add('language-' + element.dataset.lang);
+              Array.from(element.querySelectorAll('code[class*=lang]')).forEach(function(elem) {
                 elem.classList = [];
-                elem.classList.add("language-" + element.dataset.lang);
+                elem.classList.add('language-' + element.dataset.lang);
               });
             });
           });
