@@ -13,3 +13,8 @@ section.cover:after {
 .round {
     border-radius: 50%;
 }
+
+.markdown-section pre > code {
+    background-color: inherit !important;
+    color: inherit !important;
+}

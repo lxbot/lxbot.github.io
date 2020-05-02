@@ -5,14 +5,16 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta charset="UTF-8">
   <title>lxbot.io</title>
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
+  <link rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css">
+  <link rel="stylesheet" href="//unpkg.com/prism-themes/themes/prism-atom-dark.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div id="app"></div>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default%2CArray.from%2CArray.prototype.forEach"></script>
   <script>
     window.$docsify = {
-      subMaxLevel: 2,
+      subMaxLevel: 3,
       auto2top: true,
       coverpage: true,
       loadSidebar: true,
@@ -25,6 +27,19 @@
         paths: 'auto',
       },
       repo: 'lxbot/lxbot',
+      plugins: [
+        function(hook, vm) {
+          hook.doneEach(function() {
+            Array.from(document.querySelectorAll("pre[data-lang]")).forEach(function(element){
+              element.classList.add("language-" + element.dataset.lang);
+              Array.from(element.querySelectorAll('code[class*=lang]')).forEach(function(elem){
+                elem.classList = [];
+                elem.classList.add("language-" + element.dataset.lang);
+              });
+            });
+          });
+        }
+      ]
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
