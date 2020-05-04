@@ -15,6 +15,8 @@
     - [Mastodon](library/adapter/mastodon.md)
     - [Slack](library/adapter/slack.md)
   - Store
-    - [file](library/store/file.md)
+    - [File](library/store/file.md)
     - [MongoDB](library/store/mongodb.md)
+  - Plugin
+    - [Help](library/plugin/help.md)
 - [FAQ](faq.md)
