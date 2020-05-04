@@ -1,4 +1,8 @@
-[![](http://img.shields.io/badge/godoc-reference-5272B4.svg?style=flat-square)](https://godoc.org/github.com/lxbot/adapter-slack)
+[![](https://cloud.drone.io/api/badges/lxbot/adapter-slack/status.svg)](https://cloud.drone.io/lxbot/adapter-slack)
+[![](https://goreportcard.com/badge/github.com/lxbot/adapter-slack)](https://goreportcard.com/report/github.com/lxbot/adapter-slack)
+[![](https://img.shields.io/github/license/lxbot/adapter-slack.svg)](https://github.com/lxbot/adapter-slack/blob/master/LICENSE)
+[![](http://img.shields.io/badge/godoc-reference-5272B4.svg)](https://godoc.org/github.com/lxbot/adapter-slack)
+[![](https://img.shields.io/docker/image-size/lxbot/adapter-slack)](https://hub.docker.com/r/lxbot/adapter-slack)
 
 [Slack](https://slack.com)のAdapterです。
 

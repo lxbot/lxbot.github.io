@@ -1,4 +1,6 @@
-[![](http://img.shields.io/badge/godoc-reference-5272B4.svg?style=flat-square)](https://godoc.org/github.com/lxbot/lxlib)
+[![](https://goreportcard.com/badge/github.com/lxbot/lxlib)](https://goreportcard.com/report/github.com/lxbot/lxlib)
+[![](https://img.shields.io/github/license/lxbot/lxlib.svg)](https://github.com/lxbot/lxlib/blob/master/LICENSE)
+[![](http://img.shields.io/badge/godoc-reference-5272B4.svg)](https://godoc.org/github.com/lxbot/lxlib)
 
 lxlibは `Adapter` や `Script` を開発を補助するライブラリーです。  
 `Send`及び`Reply`の引数に渡される`map[string]interface{}`のstructマッピングを行います。  
