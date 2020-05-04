@@ -1,6 +1,6 @@
 [![](http://img.shields.io/badge/godoc-reference-5272B4.svg?style=flat-square)](https://godoc.org/github.com/lxbot/adapter-mastodon)
 
-[mastodon](https://github.com/tootsuite/mastodon)のAdapterです。
+[Mastodon](https://github.com/tootsuite/mastodon)のAdapterです。
 
 ## 環境変数
 
