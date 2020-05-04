@@ -3,14 +3,18 @@
   - [概念図](conceptual-diagram.md)
 - ガイド
   - [Adapter](adapter.md)
-  - [Store](store.md)
   - [Script](script.md)
+  - [Store](store.md)
   - [Plugin](plugin.md)
+  - [環境変数](env.md)
 - [公式ライブラリー](library/)
   - [lxlib](library/lxlib/)
   - Adapter
-    - [discord](library/adapter/discord.md)
+    - [Discord](library/adapter/discord.md)
     - [kokoro.io](library/adapter/kokoro-io.md)
-    - [mastodon](library/adapter/mastodon.md)
-    - [slack](library/adapter/slack.md)
+    - [Mastodon](library/adapter/mastodon.md)
+    - [Slack](library/adapter/slack.md)
+  - Store
+    - [file](library/store/file.md)
+    - [MongoDB](library/store/mongodb.md)
 - [FAQ](faq.md)
