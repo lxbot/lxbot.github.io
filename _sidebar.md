@@ -1,6 +1,6 @@
 - はじめに
   - [クイックスタート](quickstart.md)
-  - [概念図](conceptual-diagram.md)
+  - [シーケンス図](sequence-diagram.md)
 - ガイド
   - [Adapter](adapter.md)
   - [Script](script.md)
