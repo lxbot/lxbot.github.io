@@ -12,6 +12,7 @@
   - Adapter
     - [Discord](library/adapter/discord.md)
     - [kokoro.io](library/adapter/kokoro-io.md)
+    - [LINE](library/adapter/line.md)
     - [Mastodon](library/adapter/mastodon.md)
     - [Slack](library/adapter/slack.md)
   - Store
