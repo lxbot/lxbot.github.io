@@ -2,6 +2,9 @@
 
 > Lightweight eXtensible BOT. Aims hubot alternative.
 
+
+!> v2移行に伴い、ドキュメントの内容が古くなっている場合があります。
+
 ## これ is 何
 
 lxbotは、軽量で高速なBOTフレームワークを目指して作成されています。  
